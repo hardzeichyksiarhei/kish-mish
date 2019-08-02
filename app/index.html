@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>КишМиш</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body class="home-page">
+
+	<div class="wrapper">
+    <div class="page">
+
+      <div class="main-content position-relative">
+        <a href="javascript:void(0)" class="cart-toggle-down d-sm-none">
+            <span class="cart-toggle-down__icon active not-empty"><img src="img/shopping-cart-black.svg" alt="Shopping cart"></span>Ваш заказ<span class="cart-toggle-down__close">2</span>
+        </a>
+        <header id="top-header" class="top-header">
+            <div class="container">
+              <div class="row">
+                <div class="col top-header__content">
+                  <div class="dropdown dropdown-top-nav d-xl-none">
+                    <button class="top-nav-btn dropdown-toggle" type="button" data-toggle="dropdown">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item active" href="#">Меню</a>
+                      <a class="dropdown-item" href="#">Акции</a>
+                      <a class="dropdown-item" href="#">Доставка и оплата</a>
+                      <a class="dropdown-item" href="#">Отзывы</a>
+                      <a class="dropdown-item" href="#">Контакты</a>
+                    </div>
+                  </div>
+                  <nav class="top-nav">
+                    <ul class="top-nav-list">
+                      <li class="top-nav-item"><a href="#" class="top-nav-item__link">Меню</a></li>
+                      <li class="top-nav-item"><a href="#" class="top-nav-item__link">Акции</a></li>
+                      <li class="top-nav-item"><a href="#" class="top-nav-item__link">Доставка и оплата</a></li>
+                      <li class="top-nav-item"><a href="#" class="top-nav-item__link">Отзывы</a></li>
+                      <li class="top-nav-item"><a href="#" class="top-nav-item__link">Контакты</a></li>
+                    </ul>
+                  </nav>
+                  <div class="top-info">
+                    <div class="top-info__work">
+                      <span>Режим<br>работы:<i class="far fa-clock"></i></span>
+                      <span>с 9.00 до 21.00</span>
+                    </div>
+                    <a href="tel:88001231212" class="btn top-info__btn">
+                      <span class="d-none d-sm-block">8 800-123-12-12</span>
+                      <img class="d-sm-none" src="img/top-phone.png" alt="">
+                    </a>
+                    <a href="javascript:void(0)" class="cart-toggle d-none d-sm-flex active not-empty">
+                        <img src="img/shopping-cart-white.svg" alt="Shopping cart">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+      
+        <section id="s-home" class="s-home">
+          <div id="home-carousel" class="home-carousel owl-carousel owl-theme">
+            <div class="home-carousel__item" style="background-image: url(img/bg-home.jpg);">
+              <div class="container">
+                <div class="row">
+                  <div class="col home-carousel__content">
+                      <img src="img/logo.png" alt="Logo" class="home-carousel__logo">
+                      <h2 class="home-carousel__title">Сочетание пряного и острого</h2>
+                      <p class="home-carousel__desc">Традиционные рецепты основанные на столениях восточой кухни удивят каждого, ароматными, сочными, нежными, вкусными, к тому же, диетическими блюдами, что сейчас достаточно актуально.</p>
+                      <button class="btn home-carousel__btn d-none d-sm-block">Заказать сейчас</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-carousel__item" style="background-image: url(img/bg-home.jpg);">
+              <div class="container">
+                <div class="row">
+                  <div class="col home-carousel__content">
+                      <img src="img/logo.png" alt="Logo" class="home-carousel__logo">
+                      <h2 class="home-carousel__title">Сочетание пряного и острого</h2>
+                      <p class="home-carousel__desc">Традиционные рецепты основанные на столениях восточой кухни удивят каждого, ароматными, сочными, нежными, вкусными, к тому же, диетическими блюдами, что сейчас достаточно актуально.</p>
+                      <button class="btn home-carousel__btn d-none d-sm-block">Заказать сейчас</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn__order-mobile d-sm-none">Заказать сейчас</button>
+        </section>
+    
+        <section class="s-menu-category">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_1.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_1.png">
+                  </div>
+                  <span class="menu-cat__name">Плов</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_2.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_2.png">
+                  </div>
+                  <span class="menu-cat__name">Суп</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_3.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_3.png">
+                  </div>
+                  <span class="menu-cat__name">Шашлык</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_4.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_4.png">
+                  </div>
+                  <span class="menu-cat__name">Тандыр</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-12">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img menu-cat__img--rec">
+                    <img class="img-responsive img-width " src="img/menu-category/cat_5.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_5.png">
+                  </div>
+                  <span class="menu-cat__name">Салаты</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_6.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_6.png">
+                  </div>
+                  <span class="menu-cat__name">Напитки</span>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4 col-xl-3 col-6">
+                <a class="menu-cat" href="#">
+                  <div class="menu-cat__img">
+                    <img class="img-responsive img-width" src="img/menu-category/cat_7.jpg" alt="Плов">
+                    <img class="menu-cat__icon" src="img/menu-category-icon/cat_icon_7.png">
+                  </div>
+                  <span class="menu-cat__name">Соусы</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-delivery">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="s-delivery__title"><span>Доставка</span> по Новосибирску</h2>
+                <h4 class="s-delivery__sub-title">Мы привозим только горячие блюда, если вам привезли блюдо холодным, возвращаем половину или всю стоимость. <a href="#">Подробнее >></a> </h4>
+              </div>
+            </div>
+          </div>
+          <img class="s-delivery__img" src="img/bg-delivery.png" alt="">
+          <div class="s-delivery__content">
+            <div class="s-delivery__work-time">
+              <span>Время работы:</span>
+              <span>Каждый день:</span>
+              <span>c 9:00 - о 21:00</span>
+            </div>
+            <div class="s-delivery__free-shipping">
+              <span><b>Бесплатная доставка</b></span>
+              <span>(минимальный заказ — 500&nbsp;руб.)</span>
+              <span><b>Привозим в среднем за 45 минут</b></span>
+              <span><b>Всегда есть сдача!</b></span>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-services">
+          <div class="container">
+            <div class="row d-none d-md-flex">
+              <div class="col-md-4 col-sm-6">
+                <div class="service">
+                  <div class="service__icon"><img src="img/services-icon/service_icon_1.png" alt="Качество"></div>
+                  <h5 class="service__name">Качество</h5>
+                  <p class="service__desc">Идя на рынок - думаем только о качестве: ищим самое свежее мясо, выбираем самые сочные овощи, насыпаем самые ароматные специи. Выбираем разумом, готовим сердцем.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="service">
+                  <div class="service__icon"><img src="img/services-icon/service_icon_2.png" alt="Традиции"></div>
+                  <h5 class="service__name">Традиции</h5>
+                  <p class="service__desc">Помни о традициях восточной кухни. Храни рецепты, доставшиеся от предков, но делись своим мастерством с другими. Готовь плов ароматным, как в Узбекистане, а хаш наваристым - как на Кавказе.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="service">
+                  <div class="service__icon"><img src="img/services-icon/service_icon_3.png" alt="Приготовление"></div>
+                  <h5 class="service__name">Приготовление</h5>
+                  <p class="service__desc">Вари, жарь и запекай только на открытом огне. Готовь навристый суп в казане, сочный кебаб на глях, а мягкие лепешки в тандыре.</p>
+                </div>
+              </div>
+            </div>
+            <hr class="d-none d-md-block">
+            <div class="row">
+              <div class="col-md-5">
+                <ul class="service-list">
+                  <li class="service-item">Оборудование сделанное своими руками</li>
+                  <li class="service-item">60 лет совместного опыта</li>
+                  <li class="service-item">Удобная упаковка</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="service-list">
+                  <li class="service-item">Продукты с родины блюд</li>
+                  <li class="service-item">Порции от 500гр</li>
+                  <li class="service-item">При покупке от 2 кг скидка</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul class="service-list">
+                  <li class="service-item">Настоящий тандыр</li>
+                  <li class="service-item">Фирменные рецепты</li>
+                  <li class="service-item">Настоящие специи</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-popular-dishes">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="s-popular-dishes__title">Предлагаем попробовать популярные блюда</h2>
+                <h4 class="s-popular-dishes__sub-title">приготовленные нашим шеф-поваром</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 pb-3 pb-md-0">
+                <div class="popular-dishes">
+                  <img class="popular-dishes__img img-responsive" src="img/popular-dishes/popular_dishes_1.jpg" alt="Плов куриный">
+                  <h5 class="popular-dishes__name">Плов куриный</h5>
+                  <div class="popular-dishes__count">
+                    <div class="number-input">
+                      <button class="quantity-down"></button>
+                      <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                      <button class="quantity-up plus"></button>
+                    </div>
+                    <span class="popular-dishes__price">2800 р</span>
+                  </div>
+                  <p class="popular-dishes__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id iure ducimus nemo debitis dolore laboriosam consequatur quidem tempora...</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 pb-3 pb-md-0">
+                <div class="popular-dishes">
+                  <img class="popular-dishes__img img-responsive" src="img/popular-dishes/popular_dishes_1.jpg" alt="Плов куриный">
+                  <h5 class="popular-dishes__name">Плов куриный</h5>
+                  <div class="popular-dishes__count">
+                    <div class="number-input">
+                      <button class="quantity-down"></button>
+                      <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                      <button class="quantity-up plus"></button>
+                    </div>
+                    <span class="popular-dishes__price">2800 р</span>
+                  </div>
+                  <p class="popular-dishes__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id iure ducimus nemo debitis dolore laboriosam consequatur quidem tempora...</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 pb-3 pb-md-0">
+                <div class="popular-dishes">
+                  <img class="popular-dishes__img img-responsive" src="img/popular-dishes/popular_dishes_1.jpg" alt="Плов куриный">
+                  <h5 class="popular-dishes__name">Плов куриный</h5>
+                  <div class="popular-dishes__count">
+                    <div class="number-input">
+                      <button class="quantity-down"></button>
+                      <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                      <button class="quantity-up plus"></button>
+                    </div>
+                    <span class="popular-dishes__price">2800 р</span>
+                  </div>
+                  <p class="popular-dishes__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id iure ducimus nemo debitis dolore laboriosam consequatur quidem tempora...</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 pb-3 pb-md-0">
+                <div class="popular-dishes">
+                  <img class="popular-dishes__img img-responsive" src="img/popular-dishes/popular_dishes_1.jpg" alt="Плов куриный">
+                  <h5 class="popular-dishes__name">Плов куриный</h5>
+                  <div class="popular-dishes__count">
+                    <div class="number-input">
+                      <button class="quantity-down"></button>
+                      <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                      <button class="quantity-up plus"></button>
+                    </div>
+                    <span class="popular-dishes__price">2800 р</span>
+                  </div>
+                  <p class="popular-dishes__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id iure ducimus nemo debitis dolore laboriosam consequatur quidem tempora...</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="btn">В меню</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-photos">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="s-photos__title"><i class="fab fa-instagram"></i>Киш-Миш post <a href="#">#кишмишми</a></h2>
+                <h4 class="s-photos__sub-title">в фотографиях наших клиентов</h4>
+              </div>
+              <div class="col-12">
+                <div class="photo-grid">
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 1" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 2" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 3" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 4" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 5" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 6" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 7" class="photo-grid__img"></a>
+                  <a href="#" class="photo-grid__item"><img src="img/photos/photo_1.jpg" alt="Фото 8" class="photo-grid__img"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-reviews">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="s-reviews__title">Последние Отзывы наших клиентов:</h2>
+              </div>
+              <div class="col-12">
+                <div id="reviews-carousel" class="reviews-carousel owl-carousel owl-theme">
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-block">
+                      <div class="review-block__img"><img src="img/avatar_review.jpg" alt="Аватар"></div>
+                      <div class="review-block__body">
+                        <p class="review-block__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam tempore voluptas alias. Odio deserunt qui ratione dolorum!</p>
+                        <div class="review-block__meta">
+                          <span class="review-block__name">Иванов Иван,&nbsp;</span>
+                          <span class="review-block__status">бизнесмен</span>
+                          <a href="#" class="review-block__icon"><i class="fab fa-vk"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="s-online d-none d-md-block" style="background-image: url(img/s-online.jpg);">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="s-online__title">Будьте с нами онлайн:</h2>
+                <ul class="feedback-icons">
+                  <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--vk"><i class="fab fa-vk"></i></a></li>
+                  <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <a href="#s-home" class="arrow-up d-none d-md-flex" rel='m_PageScroll2id'><i class="fas fa-arrow-up"></i></a>
+      </div>
+  
+      <footer class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-12 align-self-center d-none d-md-block">
+              <a href="#"><img class="main-footer__logo" src="img/logo.png" alt="КишМиш"></a>
+            </div>
+            <div class="col-xl-2 col-md-4">
+              <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">О нас</a></li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">Акции</a></li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">Доставка</a></li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">Отзывы</a></li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-4 d-none d-md-block">
+              <ul class="footer-menu">
+                <li class="footer-menu__item">Меню:</li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Плов</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Шашлык</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Суп</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Салаты</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Соусы</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Тандыр</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Напитки</a></li>
+  
+              </ul>
+            </div>
+            <div class="col-xl-4 col-md-4">
+              <span>Служба доставки:</span>
+              <a href="tel:88001231212" class="btn">8 800-123-12-12</a>
+              <span class="main-footer__work">Режим работы: с 9:00 до 21:00</span>
+
+              <ul class="feedback-icons d-sm-none">
+                <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--vk"><i class="fab fa-vk"></i></a></li>
+                <li class="feedback-icons__item"><a href="#" class="feedback-icons__link feedback-icons__link--instagram"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+
+              <span class="main-footer__copyright">2019 г. Все права защищены.<br>Политика конфедециальности</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+    </div>
+  
+    <nav id="menu">
+      <div>
+        <div class="cart">
+          <div class="cart__header">
+            <button class="cart__close"><i class="fas fa-times"></i></button>
+            <div class="cart__shop-cart active not-empty"><img src="img/shopping-cart-black.svg" alt="Shopping cart black"></div>Ваш заказ:
+          </div>
+          <div class="cart__content">
+            <div class="cart__body">
+              <form class="cart-form" action="">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-12">
+                    <ul class="cart-orders">
+                      <li class="cart-orders-item">
+                        <span class="cart-orders-item__name">1. Куриный шашлык</span>
+                        <div class="cart-orders-item__count">
+                          <div class="number-input">
+                            <button type="button" class="quantity-down"></button>
+                            <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                            <button type="button" class="quantity-up plus"></button>
+                          </div>
+                          <span class="cart-orders-item__price">2800&nbsp;р</span>
+                        </div>
+                      </li>
+                      <li class="cart-orders-item">
+                        <span class="cart-orders-item__name">2. Куриный шашлык</span>
+                        <div class="cart-orders-item__count">
+                          <div class="number-input">
+                            <button type="button" class="quantity-down"></button>
+                            <input class="quantity" min="0" max="99" name="quantity" value="1" type="number">
+                            <button type="button" class="quantity-up plus"></button>
+                          </div>
+                          <span class="cart-orders-item__price">2800&nbsp;р</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="cart-total">
+                      <div class="cart-total__total">
+                        <!--<span>Итого:</span>-->
+                        &nbsp;<b>2 блюда</b>&nbsp;
+                        <span>1600 г</span>
+                      </div>
+                      <div class="cart-total__pay"><span>К оплате:</span>&nbsp;<b>6000 &#8381;</b></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 col-xl-12 order-sm-2 order-md-2 order-xl-1">
+                    <div class="cart-delivery-methods cart-item">
+                      <h6 class="cart-item__title">Способ доставки:</h6>
+                      <div class="cart-form-grid">
+                        <div class="cart-form-group">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="radio-pickup" name="delivery-methods" value="pickup" class="custom-control-input">
+                            <label class="custom-control-label" for="radio-pickup">Самовывоз</label>
+                          </div>
+                        </div>
+                        <div class="pickup">
+                          <div class="cart-form-group">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="radio-item-pickup-1" name="item-pickup" value="item-pickup-1" class="custom-control-input" checked>
+                              <label class="custom-control-label" for="radio-item-pickup-1">Пункт самовывоза 1</label>
+                            </div>
+                          </div>
+                          <div class="cart-form-group">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="radio-item-pickup-2" name="item-pickup" value="item-pickup-2" class="custom-control-input">
+                              <label class="custom-control-label" for="radio-item-pickup-2">Пункт самовывоза 2</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cart-form-group">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="radio-express-delivery" name="delivery-methods" value="express-delivery" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="radio-express-delivery">Курьерская доставка</label>
+                          </div>
+                        </div>
+                        <div class="express-delivery">
+                          <div class="cart-form-group">
+                            <input class="cart-form-control" name="cart-street" placeholder="Улица:">
+                          </div>
+                          <div class="cart-form-group">
+                            <input class="cart-form-control" name="cart-house" placeholder="Дом:">
+                          </div>
+                          <div class="cart-form-group">
+                            <input class="cart-form-control" name="cart-apartment" placeholder="Квартира:">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cart-contacts cart-item">
+                      <h6 class="cart-item__title">Контакты для связи:</h6>
+                      <div class="cart-form-grid">
+                        <div class="cart-form-group">
+                          <input class="cart-form-control" name="cart-name" placeholder="Имя:">
+                        </div>
+                        <div class="cart-form-group">
+                          <input id="cart-phone" class="cart-form-control" name="cart-phone" placeholder="Телефон:">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-xl-12 order-sm-1 order-md-1 order-xl-2">
+                    <div class="cart-pay cart-item">
+                      <h6 class="cart-item__title">Способы оплаты:</h6>
+                      <div class="cart-form-grid">
+                        <div class="cart-form-group">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="radio-in-cash" name="cash-methods" value="in-cash" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="radio-in-cash"><img src="img/purse.png" alt="Наличными">Наличными</label>
+                          </div>
+                        </div>
+                        <div class="cash">
+                          <div class="cart-form-group">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="radio-cash" name="cash" value="no-change" class="custom-control-input" checked>
+                              <label class="custom-control-label" for="radio-cash">Без сдачи</label>
+                            </div>
+                          </div>
+                          <div class="cart-form-group">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="radio-with-change" name="cash" value="with-change" class="custom-control-input">
+                              <label class="custom-control-label" for="radio-with-change">Со сдачей, с суммы</label>
+                            </div>
+                          </div>
+                          <div class="cart-form-group">
+                            <input class="cart-form-control" name="cart-change">
+                          </div>
+                        </div>
+                        <div class="cart-form-group">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="radio-credit-card" name="cash-methods" value="card-cash" class="custom-control-input">
+                            <label class="custom-control-label" for="radio-credit-card"><img src="img/card.png" alt="Картой курьеру">Картой курьеру</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-xl-12 order-sm-3 order-md-3 order-xl-3">
+                    <div class="cart-appliances cart-item">
+                      <h6 class="cart-item__title">Приборы:</h6>
+                      <div class="cart-form-grid">
+                        <div class="cart-form-group">
+                          <input class="cart-form-control" name="cart-appliances" placeholder="Укажите кол-во человек">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cart-comments cart-item">
+                      <h6 class="cart-item__title">Комментарии:</h6>
+                      <div class="cart-form-grid">
+                        <div class="cart-form-group">
+                          <textarea class="cart-form-control" rows="4" name="cart-comments"></textarea>
+                          <span class="min-order">Минимальный заказ 500р</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="cart__footer">
+              <button type="submit" class="btn cart__btn">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
